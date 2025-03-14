@@ -4,7 +4,7 @@
  * 使用方法：
  * 1. 先使用hqzl_quantumultx.js抓取Token
  * 2. 在Quantumult X中添加以下定时任务：
- *    0 9 * * * hqzl_task.js, tag=红旗智联, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true
+ *    0 9 * * * https://raw.githubusercontent.com/qiyeshu0/quanx/main/hqzl_task.js, tag=红旗智联, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true
  * 
  * 功能：
  * - 每日签到

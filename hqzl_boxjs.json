@@ -1,0 +1,76 @@
+{
+  "id": "hqzl.app.sub",
+  "name": "红旗智联",
+  "author": "@用户",
+  "icon": "https://hqapp.faw.cn/fawcshop/static/images/logo.png",
+  "repo": "",
+  "apps": [
+    {
+      "id": "hqzl",
+      "name": "红旗智联",
+      "keys": ["hqzlToken", "hqzlAid", "hqzlAccount", "hqzlPassword"],
+      "settings": [
+        {
+          "id": "hqzlAccount",
+          "name": "账号",
+          "val": "",
+          "type": "text",
+          "desc": "红旗智联账号"
+        },
+        {
+          "id": "hqzlPassword",
+          "name": "密码",
+          "val": "",
+          "type": "text",
+          "desc": "红旗智联密码"
+        },
+        {
+          "id": "hqzlToken",
+          "name": "Token",
+          "val": "",
+          "type": "text",
+          "desc": "登录Token，自动获取"
+        },
+        {
+          "id": "hqzlAid",
+          "name": "Aid",
+          "val": "",
+          "type": "text",
+          "desc": "用户ID，自动获取"
+        },
+        {
+          "id": "isEnableNotify",
+          "name": "是否启用通知",
+          "val": true,
+          "type": "boolean",
+          "desc": "执行任务后是否发送通知"
+        },
+        {
+          "id": "isEnableSignIn",
+          "name": "是否执行签到",
+          "val": true,
+          "type": "boolean",
+          "desc": "是否执行每日签到任务"
+        },
+        {
+          "id": "isEnableShare",
+          "name": "是否执行分享",
+          "val": true,
+          "type": "boolean",
+          "desc": "是否执行每日分享任务"
+        },
+        {
+          "id": "isEnableComment",
+          "name": "是否执行评论",
+          "val": true,
+          "type": "boolean",
+          "desc": "是否执行每日评论任务"
+        }
+      ],
+      "author": "@用户",
+      "repo": "",
+      "script": "https://raw.githubusercontent.com/用户名/仓库名/main/hqzl_task.js",
+      "icons": ["https://hqapp.faw.cn/fawcshop/static/images/logo.png", "https://hqapp.faw.cn/fawcshop/static/images/logo.png"]
+    }
+  ]
+} 

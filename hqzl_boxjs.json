@@ -69,8 +69,9 @@
       ],
       "author": "@用户",
       "repo": "",
-// 配置信息
-// 配置信息"script": "https://raw.githubusercontent.com/qiyeshu0/quanx/main/hqzl_task.js",
+/**
+配置信息"script": "https://raw.githubusercontent.com/qiyeshu0/quanx/main/hqzl_task.js",
+*/
       "script": "https://github.com/xzxxn777/Surge/raw/refs/heads/main/Script/HQZL/HQZL.js",
       "icons": ["https://hqapp.faw.cn/fawcshop/static/images/logo.png", "https://hqapp.faw.cn/fawcshop/static/images/logo.png"]
     }

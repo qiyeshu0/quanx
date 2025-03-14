@@ -4,7 +4,7 @@
  * 使用方法：
  * 1. 在Quantumult X中添加以下重写规则：
  *    hostname = hqapp.faw.cn
- *    ^https:\/\/hqapp\.faw\.cn\/fawcshop\/auth\/v1\/login url script-response-body hqzl_quantumultx.js
+ *    ^https:\/\/hqapp\.faw\.cn\/fawcshop\/auth\/v1\/login url script-response-body https://github.com/qiyeshu0/quanx/raw/refs/heads/main/hqzl_quantumultx.js
  * 
  * 2. 打开红旗智联APP，使用账号密码登录
  * 3. 登录成功后，脚本会自动捕获Token并保存
